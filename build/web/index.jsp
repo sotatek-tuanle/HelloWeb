@@ -16,6 +16,8 @@
         <form name="Name Input Form" action="response.jsp">
             Enter your name:
             <input type="text" name="name" />
+            Enter your wife name:
+            <input type="text" name="wifename" />
             <input type="submit" value="OK" />
         </form>
     </body>

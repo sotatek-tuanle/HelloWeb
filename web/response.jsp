@@ -15,5 +15,7 @@
         <jsp:useBean id="mybean" scope="session" class="org.mypakage.hello.NameHandler" />
         <jsp:setProperty name="mybean" property="name" />
         <h1>Hello, <jsp:getProperty name="mybean" property="name" />!</h1>
+        <jsp:setProperty name="mybean" property="wifename" />
+        <h1>Hello, <jsp:getProperty name="mybean" property="wifename" />!</h1>
     </body>
 </html>
