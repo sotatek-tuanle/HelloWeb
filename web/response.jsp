@@ -16,6 +16,6 @@
         <jsp:setProperty name="mybean" property="name" />
         <h1>Hello, <jsp:getProperty name="mybean" property="name" />!</h1>
         <jsp:setProperty name="mybean" property="wifename" />
-        <h1>Hello, <jsp:getProperty name="mybean" property="wifename" />!</h1>
+        <h1>Hello wife, <jsp:getProperty name="mybean" property="wifename" />!</h1>
     </body>
 </html>
