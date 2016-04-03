@@ -11,6 +11,7 @@ package org.mypakage.hello;
  */
 public class NameHandler {
     private String name;
+    private String wifename;
     
     public NameHandler(){
         name = null;
@@ -28,5 +29,19 @@ public class NameHandler {
      */
     public void setName(String name) {
         this.name = name;
+    }
+
+    /**
+     * @return the wifename
+     */
+    public String getWifename() {
+        return wifename;
+    }
+
+    /**
+     * @param wifename the wifename to set
+     */
+    public void setWifename(String wifename) {
+        this.wifename = wifename;
     }
 }
